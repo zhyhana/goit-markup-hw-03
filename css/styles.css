@@ -64,7 +64,7 @@ body {
 .main-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36em;
+    line-height: 1.3636em;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -99,14 +99,19 @@ body {
 .logo-white {
     color: var(--secondary-text-color);
 }
-.main-button {
+.primary-button {
     font-family: var(--text-font);
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875em;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
+
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px 10px;
 }
 .container {
     width: 1170px;
@@ -116,10 +121,35 @@ body {
 .flexcontainer {
     display: flex;
 }
+.space-between {
+    justify-content: space-between;
+}
+.header {
+    padding: 26px 0 24px;
+}
+.header-container {
+    align-items: center;
+}
+.header-logo {
+    margin-right: 85px;
+}
+.header-nav-item {
+    align-items: center;
+}
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: var(--accent-color);
+}
+.header-contact-item {
+    padding-left: 25px;
+}
+.header-contact-item:not(:first-child) {
+    margin-left: 25px;
 }
 .header-contact-link {
     font-weight: 500;
@@ -133,7 +163,20 @@ body {
 
 .hero {
     text-align: center;
+    background: gray;
+    padding: 200px 0;
 }
+.hero-title {
+margin-bottom: 32px;
+}
+
+.feature {
+    padding: 94px 0 0;
+}
+.feature-item {
+    width: 270px;
+}
+
 
 .footer {
     color: var(--secondary-text-color);
