@@ -1,289 +1,466 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home work 2</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    <header class="header">
-        <div class="header-container container flexcontainer space-between">
-            <nav class="nav-container flexcontainer">
-                <a class="header-logo logo" href="index.html">Web <span class="logo-black">Studio</span></a>
-                <ul class="header-nav flexcontainer">
-                    <li class="header-nav-item flexcontainer">
-                        <a class="header-nav-link" href="index.html">Студия</a>
-                    </li>
-                    <li class="header-nav-item flexcontainer">
-                        <a class="header-nav-link" href="portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="header-nav-item flexcontainer">
-                        <a class="header-nav-link" href="#">Контакты</a>
-                    </li>
-                </ul>                
-            </nav>
-            <address>
-                <ul class="header-contact flexcontainer">
-                    <li class="header-contact-item">
-                        <!-- <img src="./images/SVG/header-envelope.svg" alt="Почта"> -->
-                        <a class="header-contact-link contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="header-contact-item">
-                        <!-- <img src="./images/SVG/header-smartphone.svg" alt="Телефон"> -->
-                        <a class="header-contact-link contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
-        </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div
+        class="container flexbox justify-content-space-between align-items-center"
+      >
+        <nav class="flexbox align-items-center navigation">
+          <a href="./" class="logo header-logo">
+            Web<span class="logo-black">Studio</span>
+          </a>
+          <ul class="list flexbox header-menu">
+            <li class="header-menu-item">
+              <a href="index.html" class="header-menu-link">Студия</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="portfolio.html" class="header-menu-link">Портфолио</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#" class="header-menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list flexbox header-contact-list">
+          <li class="header-contact-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="contact-link header-contact-link"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-contact-item">
+            <a
+              href="tel:+380961111111"
+              class="contact-link header-contact-link"
+            >
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
+
     <main>
-        <section class="hero">
-            <div class="hero-container container">
-                <h1 class="hero-title main-title">Эффективные решения<br>для вашего бизнеса</h1>
-                <button class="primary-button">Заказать услугу</button>
-            </div>
-        </section>
-        <section class="feature">
-            <div class="container">
-                <h2 class="section-title visually-hidden">Особенности</h2>
-                <ul class="feature-list flexcontainer space-between">
-                    <li class="feature-item">
-                        <div class="feature-icon"><img src="./images/SVG/feature-antenna.svg" alt="Внимание к деталям"></div>
-                        <h3 class="item-title">Внимание к деталям</h3>
-                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>
-                    <li class="feature-item">
-                        <div class="feature-icon"><img src="./images/SVG/feature-clock.svg" alt="Пунктуальность"></div>
-                        <h3 class="item-title">Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>
-                    <li class="feature-item">
-                        <div class="feature-icon"><img src="./images/SVG/feature-diagram.svg" alt="Планирование"></div>
-                        <h3 class="item-title">Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>
-                    <li class="feature-item">
-                        <div class="feature-icon"><img src="./images/SVG/feature-astronaut.svg" alt="Современные технологии"></div>
-                        <h3 class="item-title">Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="what-are-we-doing">
-            <div class="container">
-                <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="what-are-we-doing-list flexcontainer">
-                    <li class="what-are-we-doing-item">
-                        <img src="./images/what-are-we-doing-1.jpg" alt="Десктопные приложения">
-                        <h3 class="item-title">Десктопные приложения</h3>
-                    </li>
-                    <li class="what-are-we-doing-item">
-                        <img src="./images/what-are-we-doing-2.jpg" alt="Мобильные приложения">
-                        <h3 class="item-title">Мобильные приложения</h3>
-                    </li>
-                    <li class="what-are-we-doing-item">
-                        <img src="./images/what-are-we-doing-3.jpg" alt="Дизайнерские решения">
-                        <h3 class="item-title">Дизайнерские решения</h3>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="our-team">
-            <div class="container">
-                <h2 class="section-title">Наша команда</h2>
-                <ul class="our-team-list flexcontainer">
-                    <li class="our-team-item">
-                        <img src="./images/our-team-1.jpg" alt="Николай Кучеренко">
-                        <p>Николай Кучеренко</p>
-                        <p>Product Designer</p>
-                        <ul class="social-link-list flexcontainer">
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-instagram.svg" alt="Instagram">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-twitter.svg" alt="Twitter">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-facebook.svg" alt="Facebook">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-linkedin.svg" alt="Linkedin">
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="our-team-item">
-                        <img src="./images/our-team-2.jpg" alt="Ольга Иванова">
-                        <p>Ольга Иванова</p>
-                        <p>Frontend Developer</p>
-                        <ul class="social-link-list flexcontainer">
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-instagram.svg" alt="Instagram">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-twitter.svg" alt="Twitter">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-facebook.svg" alt="Facebook">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-linkedin.svg" alt="Linkedin">
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="our-team-item">
-                        <img src="./images/our-team-3.jpg" alt="Андрей Шевченко">
-                        <p>Андрей Шевченко</p>
-                        <p>Marketing</p>
-                        <ul class="social-link-list flexcontainer">
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-instagram.svg" alt="Instagram">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-twitter.svg" alt="Twitter">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-facebook.svg" alt="Facebook">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-linkedin.svg" alt="Linkedin">
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="our-team-item">
-                        <img src="./images/our-team-4.jpg" alt="Иван Николаев">
-                        <p>Иван Николаев</p>
-                        <p>UI Designer</p>
-                        <ul class="social-link-list flexcontainer">
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-instagram.svg" alt="Instagram">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-twitter.svg" alt="Twitter">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-facebook.svg" alt="Facebook">
-                                </a>
-                            </li>
-                            <li class="social-link-item">
-                                <a class="social-link-link" href="#" target="_blank">
-                                    <img src="/images/SVG/social-link-linkedin.svg" alt="Linkedin">
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="permanent-customers">
-            <div class="container">
-                <h2 class="section-title">Постоянные клиенты</h2>
-                <ul class="permanent-customers-list flexcontainer">
-                    <li class="permanent-customers-item">
-                        <img src="/images/SVG/permanent-customers-logo-1.svg" alt="Клиент 1">
-                    </li>
-                    <li class="permanent-customers-item">
-                        <img src="/images/SVG/permanent-customers-logo-2.svg" alt="Клиент 2">
-                    </li>
-                    <li class="permanent-customers-item">
-                        <img src="/images/SVG/permanent-customers-logo-3.svg" alt="Клиент 3">
-                    </li>
-                    <li class="permanent-customers-item">
-                        <img src="/images/SVG/permanent-customers-logo-4.svg" alt="Клиент 4">
-                    </li>
-                    <li class="permanent-customers-item">
-                        <img src="/images/SVG/permanent-customers-logo-5.svg" alt="Клиент 5">
-                    </li>
-                    <li class="permanent-customers-item">
-                        <img src="/images/SVG/permanent-customers-logo-6.svg" alt="Клиент 6">
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section class="hero">
+        <div class="container">
+          <h1 class="main-title hero-title">
+            Эффективные решения<br />для вашего бизнеса
+          </h1>
+          <button class="btn primary-button">Заказать услугу</button>
+        </div>
+      </section>
+      <section class="feature">
+        <div class="container">
+          <h2 class="section-title visually-hidden">Особенности</h2>
+          <ul class="list flexbox feature-list">
+            <li class="three-columns item feature-item">
+              <h3 class="item-title">Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="three-columns item feature-item">
+              <h3 class="item-title">Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="three-columns item feature-item">
+              <h3 class="item-title">Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="three-columns item feature-item">
+              <h3 class="item-title">Современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="what-are-we-doing">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list flexbox what-are-we-doing-list">
+            <li class="four-columns item what-are-we-doing-item">
+              <img
+                src="./images/main/what-are-we-doing/what-are-we-doing-1.jpg"
+                alt="Десктопные приложения"
+                width="370"
+              />
+              <h3 class="item-title">Десктопные приложения</h3>
+            </li>
+            <li class="four-columns item what-are-we-doing-item">
+              <img
+                src="./images/main/what-are-we-doing/what-are-we-doing-2.jpg"
+                alt="Мобильные приложения"
+                width="370"
+              />
+              <h3 class="item-title">Мобильные приложения</h3>
+            </li>
+            <li class="four-columns item what-are-we-doing-item">
+              <img
+                src="./images/main/what-are-we-doing/what-are-we-doing-3.jpg"
+                alt="Дизайнерские решения"
+                width="370"
+              />
+              <h3 class="item-title">Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our-team">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="list flexbox our-team-list">
+            <li class="three-columns item our-team-item">
+              <img
+                src="./images/main/our-team/our-team-1.jpg"
+                alt="Игорь Демьяненко"
+                width="780"
+              />
+              <h3 class="item-title">Игорь Демьяненко</h3>
+              <p>Product Designer</p>
+              <ul class="list flexbox social-link-list">
+                <li class="social-link-item">
+                  <a
+                    href="https://www.instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Instagram</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Facebook</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Linkedin</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="three-columns item our-team-item">
+              <img
+                src="./images/main/our-team/our-team-2.jpg"
+                alt="Ольга Репина"
+                width="780"
+              />
+              <h3 class="item-title">Ольга Репина</h3>
+              <p>Frontend Developer</p>
+              <ul class="list flexbox social-link-list">
+                <li class="social-link-item">
+                  <a
+                    href="https://www.instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Instagram</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Facebook</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Linkedin</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="three-columns item our-team-item">
+              <img
+                src="./images/main/our-team/our-team-3.jpg"
+                alt="Николай Тарасов"
+                width="780"
+              />
+              <h3 class="item-title">Николай Тарасов</h3>
+              <p>Marketing</p>
+              <ul class="list flexbox social-link-list">
+                <li class="social-link-item">
+                  <a
+                    href="https://www.instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Instagram</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Facebook</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Linkedin</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="three-columns item our-team-item">
+              <img
+                src="./images/main/our-team/our-team-4.jpg"
+                alt="Михаил Ермаков"
+                width="780"
+              />
+              <h3 class="item-title">Михаил Ермаков</h3>
+              <p>UI Designer</p>
+              <ul class="list flexbox social-link-list">
+                <li class="social-link-item">
+                  <a
+                    href="https://www.instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Instagram</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Twitter</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Facebook</span>
+                  </a>
+                </li>
+                <li class="social-link-item">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link-link"
+                  >
+                    <span class="visually-hidden">Linkedin</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="permanent-customers">
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="list flexbox permanent-customers-list">
+            <li class="item permanent-customers-item">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><span class="visually-hidden">Клиент 1</span></a
+              >
+            </li>
+            <li class="item permanent-customers-item">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><span class="visually-hidden">Клиент 2</span></a
+              >
+            </li>
+            <li class="item permanent-customers-item">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><span class="visually-hidden">Клиент 3</span></a
+              >
+            </li>
+            <li class="item permanent-customers-item">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><span class="visually-hidden">Клиент 4</span></a
+              >
+            </li>
+            <li class="item permanent-customers-item">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><span class="visually-hidden">Клиент 5</span></a
+              >
+            </li>
+            <li class="item permanent-customers-item">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><span class="visually-hidden">Клиент 6</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer"></footer>
-        <div class="container flexcontainer">
-            <div class="footer-info">
-                <a class="footer-logo logo">Web <span class="logo-white">Studio</span></a>
-                <address>
-                    <ul class="footer-contact">
-                        <li class="footer-contact-item">г. Киев, пр-т Леси Украинки, 26</li>
-                        <li class="footer-contact-item">
-                            <a class="footer-contact-link contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="footer-contact-item">
-                            <a class="footer-contact-link contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-            <div class="footer-join-in">
-                <h3 class="item-title">Присоединяйтесь</h3>
-                <ul class="social-link-list flexcontainer">
-                    <li class="social-link-item">
-                        <a class="social-link-link" href="#" target="_blank">
-                            <img src="/images/SVG/social-link-instagram.svg" alt="Instagram">
-                        </a>
-                    </li>
-                    <li class="social-link-item">
-                        <a class="social-link-link" href="#" target="_blank">
-                            <img src="/images/SVG/social-link-twitter.svg" alt="Twitter">
-                        </a>
-                    </li>
-                    <li class="social-link-item">
-                        <a class="social-link-link" href="#" target="_blank">
-                            <img src="/images/SVG/social-link-facebook.svg" alt="Facebook">
-                        </a>
-                    </li>
-                    <li class="social-link-item">
-                        <a class="social-link-link" href="#" target="_blank">
-                            <img src="/images/SVG/social-link-linkedin.svg" alt="Linkedin">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-subscribe">
-                <h3 class="item-title">Подпишитесь на рассылку</h3>
-                <div>
-                    <p>E-mail</p>
-                    <button class="main-button">Подписаться</button>
-                </div>
-            </div>
+    <footer class="footer">
+      <div class="container flexbox">
+        <div class="three-columns item footer-info">
+          <a href="./" class="logo footer-logo">
+            Web <span class="logo-white">Studio</span>
+          </a>
+          <address>
+            <ul class="list footer-contact">
+              <li class="footer-contact-item">
+                г. Киев, пр-т Леси Украинки, 26
+              </li>
+              <li class="footer-contact-item">
+                <a
+                  href="mailto:info@example.com"
+                  class="contact-link footer-contact-link"
+                >
+                  info@example.com
+                </a>
+              </li>
+              <li class="footer-contact-item">
+                <a
+                  href="tel:+380961111111"
+                  class="contact-link footer-contact-link"
+                >
+                  +38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
         </div>
-    </footer>    
-</body>
+        <div class="three-columns item footer-join-in">
+          <h3 class="item-title">Присоединяйтесь</h3>
+          <ul class="list flexbox social-link-list">
+            <li class="social-link-item">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-link"
+              >
+                <span class="visually-hidden">Instagram</span>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-link"
+              >
+                <span class="visually-hidden">Twitter</span>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-link"
+              >
+                <span class="visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-link"
+              >
+                <span class="visually-hidden">Linkedin</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="six-columns item footer-subscribe">
+          <h3 class="item-title">Подпишитесь на рассылку</h3>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
