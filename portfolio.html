@@ -18,12 +18,14 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
-        <nav class="navigation">
+      <div
+        class="container flexbox justify-content-space-between align-items-center"
+      >
+        <nav class="flexbox align-items-center navigation">
           <a href="./" class="logo header-logo">
-            Web <span class="logo-black">Studio</span>
+            Web<span class="logo-black">Studio</span>
           </a>
-          <ul class="list header-menu">
+          <ul class="list flexbox header-menu">
             <li class="header-menu-item">
               <a href="index.html" class="header-menu-link">Студия</a>
             </li>
@@ -35,26 +37,24 @@
             </li>
           </ul>
         </nav>
-        <div>
-          <ul class="list header-contact-list">
-            <li class="header-contact-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="contact-link header-contact-link"
-              >
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="header-contact-item">
-              <a
-                href="tel:+380961111111"
-                class="contact-link header-contact-link"
-              >
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul class="list flexbox header-contact-list">
+          <li class="header-contact-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="contact-link header-contact-link"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header-contact-item">
+            <a
+              href="tel:+380961111111"
+              class="contact-link header-contact-link"
+            >
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -79,75 +79,101 @@
             </li>
           </ul>
           <div>
-            <ul class="list portfolio-list">
-              <li class="portfolio-item">
-                <img src="./images/Portfolio/Tehnocrak.jpg" alt="Tehnocrak" />
-                <h4>Технокряк</h4>
-                <p>Веб-сайт</p>
+            <ul class="list flexbox flex-wrap-wrap portfolio-list">
+              <li class="four-columns portfolio-item">
+                <div>
+                  <img
+                    src="./images/Portfolio/Tehnocrak.jpg"
+                    alt="Tehnocrak"
+                    width="370"
+                  />
+                </div>
+                <div class="description">
+                  <h2 class="portfolio-name">Технокряк</h2>
+                  <p class="portfolio-type">Веб-сайт</p>
+                </div>
               </li>
-              <li class="portfolio-item">
-                <img
-                  src="./images/Portfolio/Poster-Golden-Star.jpg"
-                  alt="Poster Golden Star"
-                />
-                <h4>Постер New Orlean vs Golden Star</h4>
-                <p>Дизайн</p>
+              <li class="four-columns portfolio-item">
+                <div>
+                  <img
+                    src="./images/Portfolio/Poster-Golden-Star.jpg"
+                    alt="Poster Golden Star"
+                    width="370"
+                  />
+                </div>
+                <div class="description">
+                  <h2 class="portfolio-name">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-type">Дизайн</p>
+                </div>
               </li>
-              <li class="portfolio-item">
-                <img
-                  src="./images/Portfolio/Restaurant-Seafood.jpg"
-                  alt="Restaurant Seafood"
-                />
-                <h4>Ресторан Seafood</h4>
-                <p>Приложение</p>
+              <li class="four-columns portfolio-item">
+                <div>
+                  <img
+                    src="./images/Portfolio/Restaurant-Seafood.jpg"
+                    alt="Restaurant Seafood"
+                    width="370"
+                  />
+                </div>
+                <div class="description">
+                  <h2 class="portfolio-name">Ресторан Seafood</h2>
+                  <p class="portfolio-type">Приложение</p>
+                </div>
               </li>
-              <li class="portfolio-item">
+              <li class="four-columns portfolio-item">
                 <img
                   src="./images/Portfolio/Project-Prime.jpg"
                   alt="Project Prime"
+                  width="370"
                 />
-                <h4>Проект Prime</h4>
-                <p>Маркетинг</p>
+                <h2 class="portfolio-name">Проект Prime</h2>
+                <p class="portfolio-type">Маркетинг</p>
               </li>
-              <li class="portfolio-item">
+              <li class="four-columns portfolio-item">
                 <img
                   src="./images/Portfolio/Project-Boxes.jpg"
                   alt="Project Boxes"
+                  width="370"
                 />
-                <h4>Проект Boxes</h4>
-                <p>Приложение</p>
+                <h2 class="portfolio-name">Проект Boxes</h2>
+                <p class="portfolio-type">Приложение</p>
               </li>
-              <li class="portfolio-item">
+              <li class="four-columns portfolio-item">
                 <img
                   src="./images/Portfolio/Inspiration-has-no-Borders.jpg"
                   alt="Inspiration has no Borders"
+                  width="370"
                 />
-                <h4>Inspiration has no Borders</h4>
-                <p>Веб-сайт</p>
+                <h2 class="portfolio-name">Inspiration has no Borders</h2>
+                <p class="portfolio-type">Веб-сайт</p>
               </li>
-              <li class="portfolio-item">
+              <li class="four-columns portfolio-item">
                 <img
                   src="./images/Portfolio/Edition-Limited-Edition.jpg"
                   alt="Edition Limited Edition"
+                  width="370"
                 />
-                <h4>Издание Limited Edition</h4>
-                <p>Дизайн</p>
+                <h2 class="portfolio-name">Издание Limited Edition</h2>
+                <p class="portfolio-type">Дизайн</p>
               </li>
-              <li class="portfolio-item">
+              <li class="four-columns portfolio-item">
                 <img
                   src="./images/Portfolio/Project-LAB.jpg"
                   alt="Project LAB"
+                  width="370"
                 />
-                <h4>Проект LAB</h4>
-                <p>Маркетинг</p>
+                <h2 class="portfolio-name">Проект LAB</h2>
+                <p class="portfolio-type">Маркетинг</p>
               </li>
-              <li class="portfolio-item">
+              <li class="four-columns portfolio-item">
                 <img
                   src="./images/Portfolio/Growing-Business.jpg"
                   alt="Growing Business"
+                  width="370"
                 />
-                <h4>Growing Business</h4>
-                <p>Приложение</p>
+                <h2 class="portfolio-name">Growing Business</h2>
+                <p class="portfolio-type">Приложение</p>
               </li>
             </ul>
           </div>
@@ -155,10 +181,10 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <section class="footer-info">
-          <a class="logo footer-logo">
-            Web <span class="logo-white">Studio</span>
+      <div class="container flexbox">
+        <div class="three-columns footer-info">
+          <a href="./" class="logo footer-logo">
+            Web<span class="logo-white">Studio</span>
           </a>
           <address>
             <ul class="list footer-contact">
@@ -183,10 +209,10 @@
               </li>
             </ul>
           </address>
-        </section>
-        <section class="footer-join-in">
+        </div>
+        <div class="three-columns footer-join-in">
           <h3 class="item-title">Присоединяйтесь</h3>
-          <ul class="list social-link-list">
+          <ul class="list flexbox social-link-list">
             <li class="social-link-item">
               <a
                 href="https://www.instagram.com"
@@ -228,10 +254,10 @@
               </a>
             </li>
           </ul>
-        </section>
-        <section class="footer-subscribe">
+        </div>
+        <div class="six-columns footer-subscribe">
           <h3 class="item-title">Подпишитесь на рассылку</h3>
-        </section>
+        </div>
       </div>
     </footer>
   </body>
