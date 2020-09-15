@@ -189,6 +189,7 @@ body {
   margin-left: 50px;
 }
 .header-contact-link {
+  color: var(--title-color);
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
