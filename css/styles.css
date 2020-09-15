@@ -181,6 +181,9 @@ body {
 .header-menu-item:not(:last-child) {
   margin-right: 50px;
 }
+.header-menu-link {
+  color: var(--title-color);
+}
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--accent-color);
@@ -189,7 +192,6 @@ body {
   margin-left: 50px;
 }
 .header-contact-link {
-  color: var(--title-color);
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
